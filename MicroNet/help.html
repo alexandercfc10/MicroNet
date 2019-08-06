@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MicroNet</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/video.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="icon" sizes="192x192" href="img/logo.png">
+
+	<link rel="stylesheet" href="css/video-js.css">
+	<script src="js/video.js"></script>
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<header class="main-header">
+		<div class="container container--flex">
+			<div class="logo-container column column--50">
+				<span class="icon-menu" id="btnmenu"><i class="fas fa-bars"></i></span>
+
+				<img src="img/logo.png" alt="" class="logo">
+			</div>
+
+			<div class="user-icon column column--50">
+				<a href="#" class="user-icon_link"><span><i class="far fa-bell"></i></span>Notificaciones</a>
+				<a href="system-settings.html" class="user-icon_link"><span><i class="far fa-user"></i></span>Mi Usuario</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="main-nav">
+		<div class="container container--flex">
+			<div class="sidebar" id="menu">
+				<h3>MENÚ</h3>
+				<ul>
+					<li><a href="index.html"><span><i class="fas fa-home"></i></span></a>Inicio</li>
+					<li><a href="help.html"><span><i class="fas fa-user-tie"></i></span></a>Clientes</li>
+					<li><a href="loands.html"><span><i class="fas fa-wallet"></i></span></a>Prestamos</li>
+					<li><a href="#"><span><i class="far fa-clipboard"></i></span></a>Solicitudes</li>
+					<li><a href="#"><span><i class="fas fa-box"></i></span></a>Caja</li>
+					<li><a href="#"><span><i class="fas fa-money-bill-wave"></i></span></a>Pagos Realizados</li>
+				</ul>
+				<h3>SEGURIDAD</h3>
+				<ul>
+					<li><a href="#"><span><i class="fas fa-unlock-alt"></i></span></a>Permisos</li>
+					<li><a href="#"><span><i class="fas fa-key"></i></span></a>Agentes</li>
+					<li><a href="#"><span><i class="fas fa-user-tie"></i></span></a></li>
+					<li><a href="#"><span><i class="fas fa-calculator"></i></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal-video" id="miModal">
+		<div class="flex" id="flex">
+			<div class="contenido-modal">
+				<div class="modal-header flex">
+					<h2>Título de video de ayuda</h2>
+					<span class="close" id="close">&times;</span>
+				</div>
+				<div class="modal-body">
+					<div class="contenedor">
+						<video class="fm-video video-js  vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+							<source src="video/prueba2.mp4" type="video/mp4">
+						</video>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="main" id="main">
+		<section class="group group--title">
+			<div class="container">
+				<h2 class="main__title">Ayuda</h2>
+			</div>
+
+			<div class="group group--title_secondary">
+				<h4 class="main__title-secondary">Todo lo que necesitas para usar Micronet como todo un profesional</h4>
+			</div>
+		</section>
+
+		<section class="group price__account">
+			<div class="container container--flex">
+				<h4 class="account__title">Funcionalidades</h4>
+			</div>
+		</section>
+
+		<section class="group video_section">
+			<div class="container container--flex">
+				<div class="container-videos">
+					<div class="video-category" id="abrir">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="group price__account">
+			<div class="container container--flex">
+				<h4 class="account__title">Planes</h4>
+			</div>
+		</section>
+
+		<section class="group video_section">
+			<div class="container container--flex">
+				<div class="container-videos">
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="group price__account">
+			<div class="container container--flex">
+				<h4 class="account__title">Calculadora</h4>
+			</div>
+		</section>
+
+		<section class="group video video_section">
+			<div class="container container--flex">
+				<div class="container-videos">
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+					<div class="video-category">
+						<a href="#" class="video-category_link">
+							<div class="video-category_container">
+								<div class="video-category_img"></div>
+							</div>
+							<div class="video-category_title">
+								<p>Titulo de un Video</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="group agregar-prestamos" id="abrir">
+			<div class="container">
+				<span><i class="fas fa-plus" style="height: 0px; overflow: hidden;"></i></span>
+			</div>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<div class="footer-container">
+			<p class="copy">© Micronet Dominicana 2019. Todos los derechos reservados.</p>
+		</div>
+	</footer>
+	
+	<!-- <script src="js/menu.js"></script> -->
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+
+	<script src="js/menu.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

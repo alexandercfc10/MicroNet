@@ -1,0 +1,536 @@
+.group--system_title .container {
+	background: #fff;
+	width: 100%;
+	color: orange;
+	padding: 10px;
+	text-align: center;
+}
+
+.group--title .container {
+	background: #373737;
+	color: #fff;
+	font-size: 10px;
+	font-weight: normal;
+	letter-spacing: 2.5px;
+}
+
+.data__company {
+	margin: 15px;
+	padding: 0 30px;
+}
+
+.data__company form {
+	width: 100%;
+}
+
+.data__company form .data-foto {
+	padding: 4px;
+	height: 100px;
+	display: block;
+	text-align: center;
+	width: 100px;
+	background: #4B4F56;
+	border-radius: 15px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.data__company form .data-foto span {
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	top: 30px;
+}
+
+.data__company form .data-foto .data-foto-input {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.data__company form .data-foto .data-foto-input a {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.data__company form .data-foto .data-foto-input .foto-file {
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+.data__company form .data-foto .data-foto-input .foto-file .photo-file {
+	bottom: 0;
+	font-size: 1000px !important;
+	height: 300px;
+	margin: 0;
+	opacity: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+.data__company form .formulario__label {
+	display: block;
+	position: relative;
+	color: #DF8E02;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.data__company form .formulario__input-txt {
+	width: 100%;
+	position: relative;
+	border: 1px solid #DF8E02;
+	border-radius: 50px;
+	background: white;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+.color__company {
+	width: 100%;
+}
+
+.color__company .contenido-company {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	width: 100%;
+}
+
+.color__company .company-header {
+	background: #373737;
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+.color__company .company-header h3 {
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.body-company {
+	padding: 25px 25px;
+}
+
+.body-company .company-conter {
+	width: 30%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.body-company .company-color {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #EA1F1F;
+	display: inline-block;
+	margin: 15px 40px;
+}
+
+.body-company .company-conter:nth-child(2) .company-color {
+	background: orange; 
+}
+
+.body-company .company-conter:nth-child(3) .company-color {
+	background: #DFC800; 
+}
+
+.body-company .company-conter:nth-child(4) .company-color {
+	background: #3DD500; 
+}
+
+.body-company .company-conter:nth-child(5) .company-color {
+	background: #3168B8; 
+}
+
+.body-company .company-conter:nth-child(6) .company-color {
+	background: #6C41A3; 
+}
+
+.body-company .company-conter:nth-child(7) .company-color {
+	background: #E043D2;  
+}
+
+.body-company .company-conter:nth-child(8) .company-color {
+	background: #977D4A; 
+}
+
+.body-company .company-conter:nth-child(9) .company-color {
+	background: #2FC8C5; 
+}
+
+.body-company .company-conter:nth-child(10) .company-color {
+	background: #369CC8;
+}
+
+.company__mora {
+	width: 100%;
+}
+
+.company__mora .contenido-company__mora {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	width: 100%;
+}
+
+.company__mora .company__mora-header {
+	background: #373737;
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+.company__mora .company__mora-header h3 {
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.company__mora-body {
+	padding: 25px 25px;
+}
+
+.company__mora .formulario__label {
+	display: block;
+	position: relative;
+	color: #DF8E02;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.company__mora .formulario__input-txt {
+	width: 100%;
+	position: relative;
+	border: 1px solid #DF8E02;
+	border-radius: 50px;
+	background: white;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+.setting__other {
+	width: 100%;
+}
+
+.setting__other .setting-contenido {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	width: 100%;
+}
+
+.setting__other .setting-header {
+	background: #373737;
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+.setting__other .setting-header h3 {
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.setting-body {
+	padding: 25px 25px;
+}
+
+.column--50 {
+	width: 50%;
+}
+
+.setting__other .setting-body .setting-fondo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: orange;
+	margin: 0 auto;
+}
+
+.setting__other .setting-body .setting-fondo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.setting__other .setting-body .setting-fondo a i {
+	font-size: 25px;
+	position: relative;
+	left: 12px;
+	top: 10px;
+}
+
+.setting__other .setting-body .setting-title {
+	text-align: center;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.setting__other .setting-body .check {
+	height: 25px;
+	width: 25px;
+	margin: 10px;
+}
+
+.setting__other .setting-body .checkb {
+	height: 150px;
+	border-left: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.setting__other .setting-body .checkb span {
+	width: 100px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.modal-contrato {
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.452);
+}
+
+.contrato_contenido-modal {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	width: 85%;
+	box-shadow: 0 0 6px 0 rgba(0,0,0, .4);
+	animation-name: modal;
+	animation-duration: 1s;
+}
+
+@keyframes modal {
+	from{top: -330px; opacity: 0;}
+	to{top: 0; opacity: 1;}
+}
+
+.contrato_modal-header {
+	padding: 8px 16px;
+	background: orange;
+	color: #fff;
+}
+
+.contrato_modal-header h2 {
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+.contrato_modal-body textarea {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: 200px;
+	max-height: 50px;
+	min-height: 50px;
+}
+
+.contrato_modal-footer {
+	padding: 8px 16px;
+	background: #ccc;
+	margin-top: 20px;
+	width: 100%;
+	text-align: right;
+}
+
+.contrato_modal-footer .footer-btn {
+	background: #201A15;
+	width: 100px;
+	border: none;
+	color: white;
+	padding: 5px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.contrato_modal-footer .footer-btn1 {
+	background: #DF5202;
+	width: 100px;
+	border: none;
+	color: white;
+	padding: 5px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.contrato_modal-footer .footer-btn:hover {
+	background: #DF5202;
+}
+
+.contrato_modal-footer .footer-btn1:hover {
+	background: #201A15;
+}
+
+.document__agregar .container {
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: orange;
+	margin-bottom: 20px;
+}
+
+.document__agregar span {
+	text-align: center;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+	.body-company {
+		padding: 25px 25px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+
+	.main-nav {
+		top: -668px;
+	}
+
+	.sidebar {
+		height: 1390px;
+	}
+
+	.mostrar {
+		height: 0;
+		overflow: hidden;
+	}
+
+	.big {
+		width: 100% !important;
+		transition: width .3s linear;
+	}
+
+	.data__company form .data-foto {
+		margin: 0;
+	}
+
+	.data__company form .data-foto {
+		display: inline-block;
+	}
+	
+	.data__company form .contenedor {
+		display: inline-block;
+		width: 20%;
+	}
+
+	.data__company form .contenedor:nth-child(6) {
+		width: 78%;
+	}
+
+	.company__mora .contenedor {
+		width: 45%;
+	}
+
+	.contrato_contenido-modal {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.main-nav {
+		top: -650px;
+	}
+
+	.sidebar {
+		height: 1355px;
+	}
+}
+
+@media screen and (min-width: 1198px) {
+	.main-nav {
+		top: -650px;
+	}
+
+	.sidebar {
+		height: 1360px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.main-nav {
+		top: -400px;
+	}
+
+	.sidebar {
+		height: 850px;
+	}
+
+	.mostrar {
+		height: 0;
+		overflow: hidden;
+	}
+
+	.big {
+		width: 100% !important;
+		transition: width .3s linear;
+	}
+
+	.color__company {
+		width: 49%;
+		display: inline-block;
+	}
+
+	.body-company .company-conter {
+		width: 18%;
+	}
+
+	.body-company .company-color {
+		width: 40px;
+		height: 40px;
+		margin: 15px 0;
+	}
+
+	.company__mora {
+		width: 49%;
+		display: inline-block;
+	}
+
+	.column--50-30 {
+		width: 30%;
+	}
+
+	.contrato_contenido-modal {
+		width: 65%;
+	}
+
+}
